@@ -5,4 +5,84 @@
         background-image: linear-gradient(to bottom, #7d3ab8, #28837b);
     }
 
+    #login h1{
+
+    margin-bottom: 30px;
+    }
+
+    main {
+        width: 642.4px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #imagem {
+        float: left;
+        width: 200px;
+        height: 300px;
+    }
+
+    #imagem img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+
+    #tela-de-login{
+        transition: width 1s, height 1s;
+    }
+
+    #login {
+        float: right;
+        width: 442.4px;
+        height: 300px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 0 10px 10px 0;
+        box-sizing: border-box;
+    }
+
+    #user input{
+        width: 372px;
+    }
+
+    #chave input{
+        width: 372px;
+    }
+
+    #send{
+        width: 400px;
+    }
+
+    #help{
+        width: 400px;
+    }
+
+  
+    
+}
+
+@media screen and (min-width:992px) {
+
+    #imagem {
+        float: right;
+        width: 40vw;
+        height: 300px;
+    }
+
+    #imagem img {
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    #login {
+        float: left;
+        width: 40vw;
+        height: 300px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px 0 0 10px;
+        box-sizing: border-box;
+    }
+
+
 }
