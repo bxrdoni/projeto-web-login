@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
-body{
-    background-image: linear-gradient();
+@media screen and (min-width:768px) {
+    body{
+        background-image: linear-gradient(to bottom, #7d3ab8, #28837b);
+    }
+
 }
