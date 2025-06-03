@@ -1,129 +1,52 @@
 @charset "UTF-8";
 
+/*
+Paleta de cores:
+Verde: #49a09d
+Lilás: #5f2c82
+*/
 *{
-    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body{
-    background-color: #522a6f;
-    position: relative;
+body, html{
+    background-color: #5f2c82;
     height: 100vh;
+    width: 100vw;
 }
 
 main{
+    position: relative;
+    height: 100vh;
+    
+}
+
+section#login{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
 
-#imagem{
-    display: block;
-}
-
-#imagem > img{
-    display: block;
-    width: 250px;
-    height: 200px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-#login{
-    display: block;
     background-color: white;
-    width: 250px;  
-    padding: 10px;
-    border-radius: 0px 0px 10px 10px;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+
+    overflow: hidden;
 }
 
-#login h1{
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-
-.material-icons{
-    position: relative;
-    top: 50%;
-    transform: translate(0, -50%);
-    color: white;
-    font-size: 24px;
-    
-}
-
-form #user{
-    position: relative;
-    background-color: #522a6f;
-    margin-bottom: 5px;
-    padding: 2px;
-    border-radius: 7px;
-    height: 40px;
-}
-
-#user input{
-    background-color: rgb(218, 247, 247);
-    position: absolute;
-    border: none;
-    top: 50%;
-    transform: translate(0%, -50%);
-    width: 200px;
-    height: 38px;
-    margin-left: 3px;
-    border-radius: 7px;
-}
-
-form #chave{
-    position: relative;
-    background-color: #522a6f;
-    margin-bottom: 5px;
-    padding: 2px;
-    border-radius: 7px;
-    height: 40px;
-}
-
-#chave input{
-    background-color: rgb(218, 247, 247);
-    position: absolute;
-    border: none;
-    top: 50%;
-    transform: translate(0%, -50%);
-    width: 200px;
-    height: 38px;
-    margin-left: 3px;
-    border-radius: 7px;
-}
-
-#send{
+section#login > div#imagem{
     display: block;
-    margin: auto;
-    padding: 10px;
-    width: 230px;
-    color: white;
-    background-color: rgb(49, 182, 171);
-    border: none;
-    border-radius: 7px;
-    margin-bottom: 4px;
-    
-}
-#send:hover{
-    cursor: pointer;
-    background-color: rgb(27, 99, 93);
-
+    background: #5f2c82 url(../img/pattern\ picture.jpg);
+    background-position: left bottom;
+    background-size: cover;
+    height: 200px;
 }
 
-#help{
+section#login > div#formulario{
+    display: block;
     padding: 10px;
-    width: 230px;
-    color: rgb(49, 182, 171);
-    border: solid 1.5px rgb(49, 182, 171);
-    border-radius: 7px; 
-}
-#help:hover{
-    color: white;
-    background-color: rgb(68, 211, 199) ;
-    box-shadow:  0px 0px 4px rgb(68, 211, 199);
-    cursor: pointer;
 }
