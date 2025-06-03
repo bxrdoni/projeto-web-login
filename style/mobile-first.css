@@ -41,12 +41,23 @@ section#login{
     transition-timing-function: ease;
 }
 
+
 section#login > div#imagem{
     display: block;
     background: #5f2c82 url(../img/pattern\ picture.jpg);
     background-position: left bottom;
     background-size: cover;
     height: 200px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+div#formulario > p{
+    font-size: 0.8em;
 }
 
 section#login > div#formulario{
